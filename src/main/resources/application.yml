@@ -1,0 +1,11 @@
+spring:
+  main:
+    banner-mode: off
+  application:
+    name: greylog-demo
+
+logging:
+  level:
+    .: TRACE
+server:
+  port: 8085
