@@ -55,25 +55,26 @@
 
         <!-- Enable it for log4j2 integreation  
              Please refer src/main/resources/log4j2.xml -->
-        <!-- <dependency>
+         <dependency>
             <groupId>org.graylog2.log4j2</groupId>
             <artifactId>log4j2-gelf</artifactId>
             <version>1.3.1</version>
-        </dependency> -->
+        </dependency> 
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-log4j2</artifactId>
         </dependency>
 
-
-        <dependency>
+         <!-- Enable it for log4j integreation -->
+        <!--
+         <dependency>
             <groupId>org.graylog2</groupId>
             <artifactId>gelfj</artifactId>
             <version>${gelfj.version}</version>
             <scope>compile</scope>
         </dependency>
-
+         -->
     </dependencies>
 
     <build>
